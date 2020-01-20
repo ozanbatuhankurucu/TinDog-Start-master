@@ -1,0 +1,175 @@
+body {
+  font-family: "Montserrat";
+}
+
+/* SECTION REFACTORING */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+.colored-white {
+  background-color: #fff;
+  text-align: center;
+}
+
+.centering-section-text {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat-Bold";
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* IDS */
+#testimonials {
+  color: #ffff;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+#footer {
+  padding: 3% 5%;
+}
+
+#cta {
+  padding: 5% 5%;
+}
+
+#title {
+  text-align: left;
+}
+
+#features {
+  z-index: 1;
+  position: relative;
+  background-color: white;
+  padding: 7% 15%;
+}
+
+/* TITLE SECTION */
+.title-image {
+  position: absolute;
+  transform: rotate(25deg);
+  right: 50px;
+  width: 60%;
+}
+
+.container-fluid {
+  padding: 3% 15% 11%;
+}
+
+/* Navigation Bar*/
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+padding-left: 7%;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  padding-bottom: 50px;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Features Section */
+.features-p {
+  color: #8f8f8f;
+}
+
+.features-div {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  margin-bottom: 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 10%;
+
+}
+
+.pricing-column {
+  padding: 5% 3%;
+}
+
+/* cta Section */
+.cta-h3 {
+  font-weight: bold;
+  font-size: 3.0rem;
+}
+
+/* footer Section */
+.social-addresses {
+  padding-bottom: 25px;
+}
+
+.social-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.target {
+  color: #2b2b28;
+}
+
+@media screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: none;
+  }
+}
